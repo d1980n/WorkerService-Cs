@@ -10,13 +10,18 @@
 
 [Unit]
 Description=Hioto Go App
+
 After=network.target
 
 [Service]
 User=orangepi
+
 WorkingDirectory=/home/orangepi/hioto
+
 ExecStart=/home/orangepi/hioto/main
+
 Restart=always
+
 Environment=PORT=8000
 
 [install]
