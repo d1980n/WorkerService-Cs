@@ -12,3 +12,5 @@
 
 ## jangan lupa mengganti user authority jika ingin dijalankan di VSCode dari ssh (Cross Compile)
 ''''dotnet publish -c Release -r linux-x64 --self-contained true'
+dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=tru
+chmod +x nama_file_aplikasi_anda
